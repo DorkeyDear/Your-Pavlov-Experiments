@@ -1,0 +1,18 @@
+# Игнорировать папки сборки
+build/
+dist/
+*.spec
+
+# Игнорировать видео, звуки и результаты
+videos_S_plus/
+videos_S_minus/
+sound_bell/
+sound_background/
+experiment_output/
+pavlov_session.json
+error_log.txt
+
+# Игнорировать файлы самого плеера VLC (они весят слишком много)
+libvlc.dll
+libvlccore.dll
+plugins/
