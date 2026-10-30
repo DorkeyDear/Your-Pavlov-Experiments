@@ -30,36 +30,4 @@
 ```bash
 pyinstaller --noconfirm --onefile --windowed --add-data "libvlc.dll;." --add-data "libvlccore.dll;." --add-data "plugins;plugins" pavlov_gui.pyw
 
----
 
-### Часть 3. Загрузка на GitHub
-
-Самый простой способ — использовать официальную программу **GitHub Desktop**.
-
-1. **Скачайте и установите** [GitHub Desktop](https://desktop.github.com/). Зарегистрируйтесь или войдите в свой аккаунт GitHub.
-2. В программе нажмите **File** -> **Add local repository...**
-3. Выберите папку `C:\Myfiles\ProjectGit\YourPavlovExperiments`.
-4. Программа скажет, что здесь нет репозитория. Нажмите синюю надпись **"create a repository"**.
-5. Заполните поля:
-   * **Name:** `pavlov-experiment`
-   * **Description:** `GUI app for Pavlovian conditioning experiment`
-   * Нажмите **Create repository**.
-6. Вы увидите список файлов, которые программа хочет загрузить. Благодаря `.gitignore`, там не будет видео и тяжелых DLL.
-7. Внизу слева в поле *Summary* напишите: `Initial commit` и нажмите синюю кнопку **Commit to main**.
-8. Наверху нажмите кнопку **Publish repository**.
-9. Снимите галочку *Keep this code private* (если хотите, чтобы проект видели все) и нажмите **Publish repository**.
-
-Поздравляю, ваш код на GitHub!
-
-### 🎁 Как добавить сам EXE файл на GitHub (Releases)
-Так как `.exe` весит много, GitHub не разрешает загружать его в основной код. Для этого есть раздел **Releases**.
-
-1. Зайдите на свой репозиторий через браузер (на сайт github.com).
-2. Справа найдите блок **Releases** и нажмите **Create a new release**.
-3. В поле **Choose a tag** напишите `v1.0` и нажмите *Create new tag*.
-4. В поле **Release title** напишите `Первая версия (v1.0)`.
-5. Ниже найдите блок с пунктирной рамкой: *Attach binaries by dropping them here or selecting them*. 
-6. **Перетащите туда ваш файл `pavlov_gui.exe`** из папки `dist`.
-7. Нажмите зеленую кнопку **Publish release**.
-
-Теперь у вас есть красивый репозиторий с кодом и удобная кнопка для скачивания готовой программы! Вы молодец, что довели этот проект до конца.
