@@ -12,7 +12,7 @@ The participant is presented with videos divided into two categories:
 The program automatically shuffles videos using a proportional interleaving algorithm (so S+ and S- alternate evenly) and allows you to set the probability of the bell playing (e.g., 85% to maintain the subject's vigilance).
 
 ## 🖥️ Interface
-![Uploading int2.png…]()
+![The program interface](int2.png)
 
 
 ## 🚀 How to Run the App (for participants)
